@@ -4,9 +4,9 @@ Advanced C++ programming technique
 ## Contents
 
 1. What You Must Know First
-   - [Virtual Address Space of Process: Memory Partition and Layout](Chapter 1/Virtual-Address-Space-of-Process-Memory-Partition-and-Layout.md)
-   - [Function Call: Heap and Stack](Chapter 1/Function-Call-Heap-and-Stack.md)
-   - [Program Compiling and Linking](Chapter 1/Program-Compiling-and-Linking.md)
+   - Virtual Address Space of Process: Memory Partition and Layout
+   - Function Call: Heap and Stack
+   - Program Compiling and Linking
 2. C++ Basics Improvement
    - new/delete and malloc/free
    - Reference and Pointer
