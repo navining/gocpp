@@ -1,4 +1,4 @@
-# Function Call: Heap and Stack
+# Function Call: Stack Frame
 
 Let's look at the following code:
 
