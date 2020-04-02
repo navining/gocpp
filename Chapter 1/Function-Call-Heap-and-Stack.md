@@ -39,11 +39,11 @@ mov dword ptr[ebp-8], 14h
 
 Then we meet the next commands. We assign the return value of sum() to variable *ret*. How does that happen?
 
-![function-call-1](C:\Users\super\Documents\NAVI\repositories\gocpp\assets\function-call-1.png)
+![function-call-1](../assets/function-call-1.png)
 
 ### Function Call
 
-After a function is called, we first push all the arguments into the stack. In C and C++, the push order is from right to left, so we push *b* and *a* inorder.
+After a function is called, we first push all the arguments into the stack. In C and C++, the push order is from right to left, so we push *b* and *a* in order.
 
 ```assembly
 mov eax, dword ptr[ebp-8]
@@ -52,7 +52,7 @@ mov eax, dword ptr[ebp-4]
 push eax
 ```
 
-![function-call-2](C:\Users\super\Documents\NAVI\repositories\gocpp\assets\function-call-2.png)
+![function-call-2](../assets\function-call-2.png)
 
 Then we need push the address of the next command into stack, the call command does so. This ensures that we can find our way to continue after we return from the function.
 
@@ -61,7 +61,7 @@ call sum
 add esp, 8	# Next command 0x08124458
 ```
 
-![function-call-3](C:\Users\super\Documents\NAVI\repositories\gocpp\assets\function-call-3.png)
+![function-call-3](../assets\function-call-3.png)
 
 Now we enter sum(). Remember that stack frame is independent for each function, so we need to adjust it. First, we push the address of caller's *ebp* into the stack, so that we can restore it after. Then, we set *ebp* to *esp*, which means that the new stack frame is on the top of the older one. Finally, we need to assign memory space for the new stack frame. In Visual Studio, the compiler will automatically assign an value *0xCCCCCCCC* to it, while not in g++ or gcc.
 
@@ -71,7 +71,7 @@ mov ebp, esp
 sub esp, 4Ch
 ```
 
-![function-call-4](C:\Users\super\Documents\NAVI\repositories\gocpp\assets\function-call-4.png)
+![function-call-4](../assets\function-call-4.png)
 
 Then inside sum(), we calculate the sum of *a* and *b*, and store the result into *temp*.
 
@@ -82,7 +82,7 @@ add eax, dword ptr[ebp+8]
 mov dword ptr[ebp-4], eax
 ```
 
-![function-call-5](C:\Users\super\Documents\NAVI\repositories\gocpp\assets\function-call-5.png)
+![function-call-5](../assets\function-call-5.png)
 
 ### Function Return
 
@@ -94,7 +94,7 @@ mov esp, ebp
 pop ebp
 ```
 
-![function-call-3](C:\Users\super\Documents\NAVI\repositories\gocpp\assets\function-call-3.png)
+![function-call-3](../assets\function-call-3.png)
 
 Now we want to go back to where we called the function. *ret* command pop the current element on top of the stack, and put it inside a PC register. PC register always store the address of the next command for the CPU to execute, so we are able to jump to the position we store before.
 
@@ -102,7 +102,7 @@ Now we want to go back to where we called the function. *ret* command pop the cu
 ret
 ```
 
-![function-call-2](C:\Users\super\Documents\NAVI\repositories\gocpp\assets\function-call-2.png)
+![function-call-2](../assets\function-call-2.png)
 
 After that, the function parameters are no longer useful, we can simply pop them out. Then we assign the return value from *eax* to *ret*.
 
@@ -111,13 +111,13 @@ add esp, 8
 mov dword ptr[ebp-0Ch], eax # assign return value
 ```
 
-Now the stack frame remains the same as initally. All memories related to the called function has been eliminated.
+Now the stack frame remains the same as initially. All memories related to the called function has been eliminated.
 
-![function-call-6](C:\Users\super\Documents\NAVI\repositories\gocpp\assets\function-call-6.png)
+![function-call-6](../assets\function-call-6.png)
 
 ### At Last 
 
-This is all about the underlying principle of function call and return. Now we are able to answer these two questions at the begining. You may also figure out what's the problem in the following code, and how to avoid this in your own codes.
+This is all about the underlying principle of function call and return. Now we are able to answer these two questions at the beginning. You may also figure out what's the problem in the following code, and how to avoid this in your own codes.
 
 ```c++
 int* foo() {
