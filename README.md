@@ -11,7 +11,7 @@ Advanced C++ programming technique
 2. C++ Basics Improvement、
    
    - [Default Arguments](https://github.com/navining/gocpp/blob/master/Chapter%202/Default-Arguments.md)
-   - Inline Function
+   - [Inline Function](https://github.com/navining/gocpp/blob/master/Chapter%202/Inline-Function.md)
    - Function Overloading
    - new/delete and malloc/free
    - Reference and Pointer
