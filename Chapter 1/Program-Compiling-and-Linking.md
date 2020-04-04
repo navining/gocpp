@@ -1,6 +1,6 @@
 # Program Compiling and Linking
 
-![Compiling-and-Linking](../assets/Compiling-and-Linking.png)
+![Compiling-and-Linking](../assets/compiling-and-linking.png)
 
 We all know that we need to compile the source file to an executable program for the machine to run, but what exactly happened? A modern compiler does most of the work for programmers and make life much easier, but it is important for us to understand what's going on out of our sight. Let's start from these two functions from two separate files.
 
@@ -167,7 +167,7 @@ The content of our final executable file is similar to the relocatable object fi
 
 Besides, the executable file has one more section: the program header. The program header tells the system to load sections into the corresponding virtual address space when the program is executed.
 
-![Linking](../assets/Linking.png)
+![Linking](../assets/linking.png)
 
 ### At Last
 
