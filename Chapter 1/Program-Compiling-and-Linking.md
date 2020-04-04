@@ -42,13 +42,13 @@ The compiling step is performed on the output of the preprocessor. The compiler 
 
 #### Assembly
 
-In this step, the compiler translate the assembly code into machine code, which is represented as an **ELF** (Executable Linkable Format) file. This object file contains an ELF header and several sections, including *.text*, *.rodata*, *.data*, *.bss* and *.symtab*, a symbol table. 
+In this step, the compiler translate the assembly code into machine code, which is represented as an Relocatable Object File. This object file contains an ELF (Executable Locatable File) header and several sections, including *.text*, *.rodata*, *.data*, *.bss* and *.symtab*, a symbol table. 
 
 The ELF headed stores information of this file, helping the linker to parse and explain the target file.
 
 *.text*, *.rodata*, *.data*, *.bss* is similar to those we have seen in the process virtual address space, which refers to commands and data.
 
-The symbol table stores symbols of the definitions and references of global variables and functions in our file. We can use ```objdump -t main.o``` to see the symbol table of our main() function.
+The symbol table stores symbols of the declarations and definitions of global variables and functions in our file. We can use ```objdump -t main.o``` to see the symbol table of our main() function.
 
 ```shell
 main.o:     file format elf64-x86-64
@@ -68,7 +68,7 @@ SYMBOL TABLE:
 0000000000000000         *UND*  0000000000000000 _Z3sumii
 ```
 
-As we can see from the symbol table, 
+As we can see from the symbol table, our main() function is stored as commands inside *.text* section, and the global variable *data* is stored in *.data*. But what about sum() and *gdata*, why their location is *UND* (undefined)? That is because these are only declarations, and their implementation is in sum.cpp. Now the computer doesn't know where to find these symbols. We need to target the actual location of these symbols in the linking step.
 
 ```cpp
 extern int gdata;	// gdata  *UND*
@@ -84,11 +84,9 @@ int main() {	// main  .text
 }
 ```
 
-
+Similarly, we can take a look at the symbol table of sum.o.
 
 ```bash
-navi@Navi-PC:~$ objdump -t sum.o
-
 sum.o:     file format elf64-x86-64
 
 SYMBOL TABLE:
@@ -103,6 +101,8 @@ SYMBOL TABLE:
 0000000000000000 g     F .text  0000000000000014 _Z3sumii
 ```
 
+Sure enough, *gdata* and sum() is defined here, and we find their locations in the symbol table.
+
 ```cpp
 int gdata = 10;	// gdata  .data
 
@@ -111,22 +111,9 @@ int sum(int a, int b) {	// sum_int_int  .text
 }
 ```
 
-elf header readelf -h ***.o
-
-readelf -S ***.o print sections
-
-编译过程中符号不分配虚拟地址
-
-objdump -S print .text 发现地址都是0
+Now we may understand why *.o* file can not be executed directly, because some points in each source file is missing, and we need to form a relation between them. To better illustrate this, we can use ```objdump -S main.o``` to see the machine commands stored in *.text*. 
 
 ```shell
-navi@Navi-PC:~$ objdump -S main.o
-
-main.o:     file format elf64-x86-64
-
-
-Disassembly of section .text:
-
 0000000000000000 <main>:
    0:   55                      push   %rbp
    1:   48 89 e5                mov    %rsp,%rbp
@@ -146,31 +133,15 @@ Disassembly of section .text:
   32:   c3                      retq
 ```
 
+Notice that in line 8 and line 11, the destination address of *mov* command is 0x0! It shows that in compiling process, the symbols are not assigned with virtual memory address, this process is done in the following step.
+
 ### Linking
 
-step1:
+The linker takes the object files, relates them together and produces the final executable file (or a shared library). First, it combines sections of all ELF files. For *.text*, *.data* or *.bss*, the mergence is straightforward. And for symbol tables, the linker needs to find where a symbol is defined when its location is marked *UND*, and replace it with *.text*, *.data*, etc.
 
-combine sections
+At this stage, the most common errors are missing definitions or duplicate definitions. The former means that the linker cannot find the definition of the symbol, and the  latter shows that a symbol is defined more than once in different object files.
 
-.text <=> .text
-
-.data <=> .data
-
-.bss <=> .bss
-
-combine symbol table: find where the symbol is defined 
-
-*UND* => .text .data
-
-符号未定义，符号重定义
-
-step2:
-
-assign virtual address
-
-符号重定向: 修改.text中的地址
-
-此时objdump -S a.out 发现有地址了
+The second step is to assign virtual memory address for symbols, which is called symbol relocation. It goes through the *.text* section, and replace 0x0 with newly assigned address. Now if we dump our executable file with ```objdump -S a.out```, we can find that all symbols get their virtual addresses.
 
 ```shell
 00000000000005fa <main>:
@@ -192,13 +163,13 @@ assign virtual address
  62c:   c3                      retq
 ```
 
+The content of our final executable file is similar to the relocatable object file. The ELF header also records the entry point of the program, which is the address of the first command run by the program. In our case, it is the address of the main function.
 
-
-可执行文件多了program headers段
-
-two loads: .text and .data
-
-从哪执行: elf 记录了入口地址
+Besides, the executable file has one more section: the program header. The program header tells the system to load sections into the corresponding virtual address space when the program is executed.
 
 ![Linking](../assets/Linking.png)
+
+### At Last
+
+Now we understand the process of compiling and linking, but why we need to separate them? It is mainly because we would like to compile each source code file separately. We do not need to recompile everything if we only change a single file, which may be very time-consuming in large-scale projects. Also, the object files can be buddle together as static libraries for reusing. Therefore we can simply base on others' efforts instead of written everything by our own.
 
