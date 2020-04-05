@@ -49,9 +49,9 @@ SYMBOL TABLE:
 0000000000000000 g     F .text.startup  0000000000000003 main
 ```
 
-However, not every function marked with *inline* will be converted into inline function. A recursive function, for example, which calls itself constantly, can not be inlined because the times it is called is only known at runtime. Moreover, if the function has too many lines, it may also not be inlined.
+However, not every function marked with `inline` will be converted into inline function. A recursive function, for example, which calls itself constantly, can not be inlined because the times it is called is only known at runtime. Moreover, if the function has too many lines, it may also not be inlined.
 
-Therefore, the keyword *inline* is just a suggestion for the compiler to make it inlined. It is up to the compiler to decide whether make it inlined or not.
+Therefore, the keyword `inline` is just a suggestion for the compiler to make it inlined. It is up to the compiler to decide whether make it inlined or not.
 
-In VS Code, *inline* only works in the release version. The debug version makes it unavailable in order to facilitate the debugging of the program.
+In VS Code, `inline` only works in the release version. The debug version makes it unavailable in order to facilitate the debugging of the program.
 
