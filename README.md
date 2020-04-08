@@ -13,10 +13,8 @@ Advanced C++ programming technique
    - [Default Arguments](https://github.com/navining/gocpp/blob/master/Chapter%202/Default-Arguments.md)
    - [Inline Function](https://github.com/navining/gocpp/blob/master/Chapter%202/Inline-Function.md)
    - [Function Overloading](https://github.com/navining/gocpp/blob/master/Chapter%202/Function-Overloading.md)
-   - new/delete and malloc/free
-   - Reference and Pointer
-   - const, Refrence and Pointer
-   - Function Template
+   - [`new` and `delete`](https://github.com/navining/gocpp/blob/master/Chapter%202/New-and-Delete.md)
+   - `const` in detail
    
 3. Object-Oriented Principles
    - *this Pointer
