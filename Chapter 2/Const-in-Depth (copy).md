@@ -1,4 +1,4 @@
-# onst``` in Depth
+# nst``` in Depth
 
 const修饰的变量不能作为左值，初始化完成后值不能被修改
 

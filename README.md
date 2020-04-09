@@ -14,7 +14,7 @@ Advanced C++ programming technique
    - [Inline Function](https://github.com/navining/gocpp/blob/master/Chapter%202/Inline-Function.md)
    - [Function Overloading](https://github.com/navining/gocpp/blob/master/Chapter%202/Function-Overloading.md)
    - [`new` and `delete`](https://github.com/navining/gocpp/blob/master/Chapter%202/New-and-Delete.md)
-   - `const` in detail
+   - [`const` and Pointers](https://github.com/navining/gocpp/blob/master/Chapter%202/Const-and-Pointers.md)
    
 3. Object-Oriented Principles
    - *this Pointer
