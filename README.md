@@ -8,13 +8,14 @@ Advanced C++ programming technique
    - [Function Call: Stack Frame](https://github.com/navining/gocpp/blob/master/Chapter%201/Function-Call-Stack-Frame.md)
    - [Program Compiling and Linking](https://github.com/navining/gocpp/blob/master/Chapter%201/Program-Compiling-and-Linking.md)
    
-2. C++ Basics Improvement、
+2. C++ Basics Improvement
    
-   - [Default Arguments](https://github.com/navining/gocpp/blob/master/Chapter%202/Default-Arguments.md)
+   - [Default Parameters](https://github.com/navining/gocpp/blob/master/Chapter%202/Default-Parameters.md)
    - [Inline Function](https://github.com/navining/gocpp/blob/master/Chapter%202/Inline-Function.md)
    - [Function Overloading](https://github.com/navining/gocpp/blob/master/Chapter%202/Function-Overloading.md)
    - [`new` and `delete`](https://github.com/navining/gocpp/blob/master/Chapter%202/New-and-Delete.md)
    - [`const` and Pointers](https://github.com/navining/gocpp/blob/master/Chapter%202/Const-and-Pointers.md)
+   - [References in Detail](https://github.com/navining/gocpp/blob/master/Chapter%202/References-in-Detail.md)
    
 3. Object-Oriented Principles
    - *this Pointer

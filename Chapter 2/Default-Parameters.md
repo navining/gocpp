@@ -1,5 +1,5 @@
 
-# Default Arguments
+# Default Parameters
 
 When passing arguments to a funtion, we can do this in a naive way:
 
@@ -17,7 +17,7 @@ int main() {
 }
 ```
 
-Alternatively, we can assign values to arguments inside the funtion brackets. These arguments with initialize values are called **default parameters**. Then in our main() function, we can pass inside a single parameter *a*. Then the second argument is automatically assigned to 20 since we do not pass it inside.
+Alternatively, we can assign values to parameters inside the funtion brackets. These parameters with initialize values are called **default parameters**. Then in our main() function, we can pass inside a single parameter *a*. Then the second argument is automatically assigned to 20 since we do not pass it inside.
 
 ```cpp
 int sum(int a, int b = 20) {
@@ -47,7 +47,7 @@ int main() {
 }
 ```
 
-Moreover, we can also give default arguments in declaration besides definition:
+Moreover, we can also give default parameters in declaration besides definition:
 
 ```cpp
 int sum(int a = 10, int b = 20);
@@ -79,7 +79,7 @@ int sum(int a = 10, int b = 20) {	// ERROR
 }
 ```
 
-Then let's look at the following code. Although the default arguments shows up from left to right in line 2, this program is actually valid. When the compiler parsing the code, it first reaches line 1, and record the value of *b*. When it reaches line 2, the compiler already knows that *b* equals 20, so it only needs the value of *a*.
+Then let's look at the following code. Although the default parameters shows up from left to right in line 2, this program is actually valid. When the compiler parsing the code, it first reaches line 1, and record the value of *b*. When it reaches line 2, the compiler already knows that *b* equals 20, so it only needs the value of *a*.
 
 ```cpp
 int sum(int a, int b = 20);
@@ -96,7 +96,7 @@ int sum(int a, int b) {
 }
 ```
 
-Sometimes function with default arguments can enhance the performance. In the naive approach we pass two variables inside the function, and the assembly code of pushing parameters into stack looks like:
+Sometimes function with default parameters can enhance the performance. In the naive approach we pass two variables inside the function, and the assembly code of pushing parameters into stack looks like:
 
 ```assembly
 mov eax, dword ptr[ebp-8]
