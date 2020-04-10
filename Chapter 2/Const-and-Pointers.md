@@ -1,6 +1,6 @@
 # ```const``` and Pointers
 
-`const` is a keyword widely used in C and C++. Variable modified by`const` cannot be a lvalue of operator `=`, which means it can not be modified after it is initialized.
+`const` is a keyword widely used in C and C++. Variable modified by`const` cannot be a Lvalue of operator `=`, which means it can not be modified after it is initialized.
 
 ```cpp
 int main() {
@@ -55,9 +55,9 @@ const int a = b;
 int array[a] = {};	// ERROR
 ```
 
-### `const` and Pointer
+### `const` and Pointers
 
-`const` keyword ensures two things. The first one, which we have already known, is that a `const` variable cannot be a lvalue, which means it cannot be modified directly. Besides, `const` also makes sure that the constant can not be modified indirectly, which means the memory address of a constant can not be exposed to a normal pointer nor reference.
+`const` keyword ensures two things. The first one, which we have already known, is that a `const` variable cannot be a Lvalue, which means it cannot be modified directly. Besides, `const` also makes sure that the constant can not be modified indirectly, which means the memory address of a constant can not be exposed to a normal pointer nor reference.
 
 ```cpp
 int main() {
@@ -121,7 +121,7 @@ In all, we have the following formula in type conversion of pointer:
 (const int*) a = (int*) b	// Correct
 ```
 
-### `const` and Double Pointer
+### `const` and Double Pointers
 
 Double pointer with `const` works in a similar way. Remember that `const` always works on the nearest type.
 
