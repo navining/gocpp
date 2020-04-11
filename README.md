@@ -18,7 +18,7 @@ Advanced C++ programming technique
    - [References in Detail](https://github.com/navining/gocpp/blob/master/Chapter%202/References-in-Detail.md)
    
 3. Object-Oriented Principles
-   - *this Pointer
+   - [Class and Object](https://github.com/navining/gocpp/blob/master/Chapter%203/Class-and-Object.md)
    - Deep Copy and Shallow Copy
    - Object Lifecycle and Optimization
    - Copy Constructor and operator=
