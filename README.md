@@ -20,12 +20,12 @@ Advanced C++ programming technique
 3. Object-Oriented Principles
    - [Class and Object](https://github.com/navining/gocpp/blob/master/Chapter%203/Class-and-Object.md)
    - [Constructor and Destructor](https://github.com/navining/gocpp/blob/master/Chapter%203/Constructor-and-Destructor.md)
-   - Deep Copy and Shallow Copy
+   - [Shallow Copy and Deep Copy](https://github.com/navining/gocpp/blob/master/Chapter%203/Shallow-Copy-and-Deep-Copy.md)
    - Object Lifecycle and Optimization
    - Copy Constructor and operator=
    - Three Kinds of Methods
 - Thinking in OOP
-   
+  
 4. Template Programming
    - Function Template and Class Template
    - Implementation of vector Template
