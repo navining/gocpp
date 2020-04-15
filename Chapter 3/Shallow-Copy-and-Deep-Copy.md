@@ -53,8 +53,9 @@ We can also define the operator `=` in the way we want, which is called an **ope
 
 ```cpp
 MyStack& operator=(const MyStack &other) {
+    if (this == &other)
+        return *this;
     // 1. Release current memory
-    if (this != &other)
     	delete[] _pstack;
     // 2. Allocate new memory
      _pstack = new int[other._size];
@@ -64,7 +65,7 @@ MyStack& operator=(const MyStack &other) {
     _top = other._top;
     _size = other._size;
     
-    return *this
+    return *this;
 }
 ```
 
