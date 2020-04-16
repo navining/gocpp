@@ -21,9 +21,7 @@ Advanced C++ programming technique
    - [Class and Object](https://github.com/navining/gocpp/blob/master/Chapter%203/Class-and-Object.md)
    - [Constructor and Destructor](https://github.com/navining/gocpp/blob/master/Chapter%203/Constructor-and-Destructor.md)
    - [Shallow Copy and Deep Copy](https://github.com/navining/gocpp/blob/master/Chapter%203/Shallow-Copy-and-Deep-Copy.md)
-   - Object Lifecycle and Optimization
-   - Copy Constructor and operator=
-   - Three Kinds of Methods
+   - [Initializer-List](https://github.com/navining/gocpp/blob/master/Chapter%203/Initializer-List.md)
 - Thinking in OOP
   
 4. Template Programming
