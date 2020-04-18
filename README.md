@@ -9,7 +9,6 @@ Advanced C++ programming technique
    - [Program Compiling and Linking](https://github.com/navining/gocpp/blob/master/Chapter%201/Program-Compiling-and-Linking.md)
    
 2. C++ Basics Improvement
-   
    - [Default Parameters](https://github.com/navining/gocpp/blob/master/Chapter%202/Default-Parameters.md)
    - [Inline Function](https://github.com/navining/gocpp/blob/master/Chapter%202/Inline-Function.md)
    - [Function Overloading](https://github.com/navining/gocpp/blob/master/Chapter%202/Function-Overloading.md)
@@ -22,15 +21,16 @@ Advanced C++ programming technique
    - [Constructor and Destructor](https://github.com/navining/gocpp/blob/master/Chapter%203/Constructor-and-Destructor.md)
    - [Shallow Copy and Deep Copy](https://github.com/navining/gocpp/blob/master/Chapter%203/Shallow-Copy-and-Deep-Copy.md)
    - [Initializer List](https://github.com/navining/gocpp/blob/master/Chapter%203/Initializer-List.md)
-- [Various Member Functions](https://github.com/navining/gocpp/blob/master/Chapter%203/Various-Member-Functions.md)
+   - [Various Member Functions](https://github.com/navining/gocpp/blob/master/Chapter%203/Various-Member-Functions.md)
    - [Pointer to Class Members](https://github.com/navining/gocpp/blob/master/Chapter%203/Pointer-to-Class-Members.md)
 
 4. Template Programming
-   - Function Template and Class Template
+   - [Function Templates](https://github.com/navining/gocpp/blob/master/Chapter%204/Function-Templates.md)
+   - Class Templates
    - Implementation of vector Template
    - Container Allocator
-   - Implementation of SGI STL and Thread Pool
-
+- Implementation of SGI STL and Thread Pool
+   
 5. Operator Overloading
    - string Class
    - Container Iterator
