@@ -22,8 +22,8 @@ Advanced C++ programming technique
    - [Constructor and Destructor](https://github.com/navining/gocpp/blob/master/Chapter%203/Constructor-and-Destructor.md)
    - [Shallow Copy and Deep Copy](https://github.com/navining/gocpp/blob/master/Chapter%203/Shallow-Copy-and-Deep-Copy.md)
    - [Initializer List](https://github.com/navining/gocpp/blob/master/Chapter%203/Initializer-List.md)
-
-   - [Various Member Functions](https://github.com/navining/gocpp/blob/master/Chapter%203/Various-Member-Functions.md)
+- [Various Member Functions](https://github.com/navining/gocpp/blob/master/Chapter%203/Various-Member-Functions.md)
+   - [Pointer to Class Members](https://github.com/navining/gocpp/blob/master/Chapter%203/Pointer-to-Class-Members.md)
 
 4. Template Programming
    - Function Template and Class Template
