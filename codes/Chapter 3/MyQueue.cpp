@@ -1,6 +1,3 @@
-#include <iostream>
-using namespace std;
-
 class MyQueue {
  public:
   MyQueue(int size = 20) {
