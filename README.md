@@ -27,10 +27,7 @@ Advanced C++ programming technique
 4. Template Programming
    - [Function Templates](https://github.com/navining/gocpp/blob/master/Chapter%204/Function-Templates.md)
    - [Class Templates](https://github.com/navining/gocpp/blob/master/Chapter%204/Class-Templates.md)
-   - Implementation of vector Template
-   - Container Allocator
-- Implementation of SGI STL and Thread Pool
-  
+   - [Memory-Allocators](https://github.com/navining/gocpp/blob/master/Chapter%204/Memory-Allocators.md)
 5. Operator Overloading
    - string Class
    - Container Iterator
