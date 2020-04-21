@@ -28,12 +28,16 @@ Advanced C++ programming technique
    - [Function Templates](https://github.com/navining/gocpp/blob/master/Chapter%204/Function-Templates.md)
    - [Class Templates](https://github.com/navining/gocpp/blob/master/Chapter%204/Class-Templates.md)
    - [Memory-Allocators](https://github.com/navining/gocpp/blob/master/Chapter%204/Memory-Allocators.md)
+   
 5. Operator Overloading
+   
+   - [Operator Overloading](https://github.com/navining/gocpp/blob/master/Chapter%205/Operator-Overloading.md)
+   
    - string Class
-   - Container Iterator
+- Container Iterator
    - Smart Pointer
    - new and delete
-
+   
 6. Inheritance and Polymorphism
    - Static Binding and Dynamic Binding
    - Polymorphism
