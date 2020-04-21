@@ -106,7 +106,7 @@ void MyComplex::operator+=(const MyComplex &other) {
 }
 ```
 
-We can also overload the stream output operator `<<`. It is also a global function, which takes the *ostream* object as the first parameter, and our *MyComplex* object as the second. Similarly, it should also be defined as friend inside *MyComplex*.
+We can also overload the output stream operator `<<`. It is also a global function, which takes the *ostream* object as the first parameter, and our *MyComplex* object as the second. Similarly, it should also be defined as friend inside *MyComplex*.
 
 ```cpp
 std::ostream &operator<<(std::ostream &out, const MyComplex &c) {
@@ -114,7 +114,7 @@ std::ostream &operator<<(std::ostream &out, const MyComplex &c) {
 }
 ```
 
-Now we can use stream output to print our self-defined complex class.
+Now we can use output stream to print our self-defined complex class.
 
 ```cpp
 int main() {
@@ -122,6 +122,14 @@ int main() {
   MyComplex c2(20, 20);
   std::cout << c1 << " " << c2 << std::endl;	// 10+10i 20+20i
   return 0;
+}
+```
+
+The input stream is similar:
+
+```cpp
+std::istream &operator>>(std::istream &in, MyComplex &c) {
+  return in >> c.mreal >> c.mimage;
 }
 ```
 

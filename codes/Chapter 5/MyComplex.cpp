@@ -26,6 +26,7 @@ class MyComplex {
   int mimage;
   friend MyComplex operator+(const MyComplex &c1, const MyComplex &c2);
   friend std::ostream &operator<<(std::ostream &out, const MyComplex &c);
+  friend std::istream &operator>>(std::istream &in, MyComplex &c);
 };
 
 MyComplex operator+(const MyComplex &c1, const MyComplex &c2) {
@@ -36,9 +37,14 @@ std::ostream &operator<<(std::ostream &out, const MyComplex &c) {
   return out << c.mreal << "+" << c.mimage << "i";
 }
 
+std::istream &operator>>(std::istream &in, MyComplex &c) {
+  return in >> c.mreal >> c.mimage;
+}
+
 int main() {
-  MyComplex c1(10, 10);
-  MyComplex c2(20, 20);
+  MyComplex c1;
+  MyComplex c2;
+  std::cin >> c1 >> c2;
   std::cout << c1 << " " << c2 << std::endl;
   return 0;
 }
