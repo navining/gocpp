@@ -79,7 +79,7 @@ We can also regard our string class as a container, which contains a series of c
 
 There are many types of containers in C++ Standard Template Libraries whose underlying data structures are different. These data structures are private members and are not exposed to users directly. **Iterators** are pointers pointing to elements inside a container. We can use iterators to move through the contents of the container, without knowing the specific ways of memory storage. In other word, iterators are abstract interfaces that give users transparent access to elements inside the container. Iterators are widely used in C++ generic algorithms. These algorithms need to traverse the container in a uniform way, therefore taking container iterators as parameters.
 
-Iterator is implemented as a nested class of the container, and four methods need to be defined. *begin()* returns the iterator pointing to the first element inside the container. *end()* returns the iterator pointing to the latter of the last element inside the container. *iterator::operator++()* moves to the next element. And *iterator::operator*()* returns the dereference of an iterator, which is the element itself.
+Iterator is implemented as a nested class of the container, and four methods need to be defined. *begin()* returns the iterator pointing to the first element inside the container. *end()* returns the iterator pointing to the latter of the last element inside the container. *iterator::operator++()* moves to the next element. *iterator::operator!=()* determines whether two iterators are equal. And *iterator::operator*()* returns the dereference of an iterator, which is the element itself.
 
 ```cpp
 class MyString {
