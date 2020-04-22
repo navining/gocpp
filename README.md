@@ -33,7 +33,7 @@ Advanced C++ programming technique
    
    - [Operator Overloading](https://github.com/navining/gocpp/blob/master/Chapter%205/Operator-Overloading.md)
    
-   - string Class
+   - [Introduction to Iterators](https://github.com/navining/gocpp/blob/master/Chapter%205/Introduction-to-Iterators.md)
 - Container Iterator
    - Smart Pointer
    - new and delete
