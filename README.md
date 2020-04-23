@@ -30,14 +30,10 @@ Advanced C++ programming technique
    - [Memory-Allocators](https://github.com/navining/gocpp/blob/master/Chapter%204/Memory-Allocators.md)
    
 5. Operator Overloading
-   
    - [Operator Overloading](https://github.com/navining/gocpp/blob/master/Chapter%205/Operator-Overloading.md)
-   
    - [Introduction to Iterators](https://github.com/navining/gocpp/blob/master/Chapter%205/Introduction-to-Iterators.md)
-- Container Iterator
-   - Smart Pointer
-   - new and delete
-   
+   - [Issues of Iterator Invalidation](https://github.com/navining/gocpp/blob/master/Chapter%205/Issues-of-Iterator-Invalidation.md)
+
 6. Inheritance and Polymorphism
    - Static Binding and Dynamic Binding
    - Polymorphism
