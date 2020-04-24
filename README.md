@@ -33,7 +33,8 @@ Advanced C++ programming technique
    - [Operator Overloading](https://github.com/navining/gocpp/blob/master/Chapter%205/Operator-Overloading.md)
    - [Introduction to Iterators](https://github.com/navining/gocpp/blob/master/Chapter%205/Introduction-to-Iterators.md)
    - [Issues of Iterator Invalidation](https://github.com/navining/gocpp/blob/master/Chapter%205/Issues-of-Iterator-Invalidation.md)
-
+- [More about `new` and `delete`](https://github.com/navining/gocpp/blob/master/Chapter%205/More-about-new-and-delete.md)
+   
 6. Inheritance and Polymorphism
    - Static Binding and Dynamic Binding
    - Polymorphism
