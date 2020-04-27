@@ -33,7 +33,7 @@ Advanced C++ programming technique
    - [Overloading of `new` and `delete`: Object Pool](https://github.com/navining/gocpp/blob/master/Chapter%205/Overloading-of-new-and-delete-Object-Pool.md)
 6. Inheritance and Polymorphism
    - [Look inside Inheritance](https://github.com/navining/gocpp/blob/master/Chapter%205/Look-inside-Inheritance.md)
-   - Polymorphism
+   - [More about Inheritance](https://github.com/navining/gocpp/blob/master/Chapter%205/More-about-Inheritance.md)
    - vfptr and vftable, vbptr and vbtable
 7. Multiple Inheritance
    - Abstract Class and Virtual Base Class
