@@ -35,6 +35,7 @@ Advanced C++ programming technique
    - [Look inside Inheritance](https://github.com/navining/gocpp/blob/master/Chapter%206/Look-inside-Inheritance.md)
    - [More about Inheritance](https://github.com/navining/gocpp/blob/master/Chapter%206/More-about-Inheritance.md)
    - [Virtual Functions, Static Binding and Dynamic Binding](https://github.com/navining/gocpp/blob/master/Chapter%206/Virtual-Functions-Static-Binding-and-Dynamic-Binding.md)
+   - [More about Virtual Functions](https://github.com/navining/gocpp/blob/master/Chapter%206/More-about-Virtual-Functions.md)
 7. Multiple Inheritance
    - Abstract Class and Virtual Base Class
    - Type Conversion
