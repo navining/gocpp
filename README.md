@@ -1,5 +1,17 @@
 # Go C++
-Advanced C++ programming technique
+C++ basics improvement, object-oriented paradigm and advanced programming techniques, along with classic interview questions and pratical problem-soving examples.
+
+:grinning: These notes are for：
+1. People who have already learned C and want to learn C++
+2. People who already know C++ and want to learn in depth
+3. People who are preparing for recruitment and want to crack the technical interviews (like me)
+4. People who want to use C++ in pratical projects and want to know about common programming techniques
+
+:slightly_frowning_face: These notes are not for:
+1. People who have no programming experience with C-style programming languages
+2. People who want to delve into the details of C++ standards
+
+**Have fun!**
 
 ## Contents
 
