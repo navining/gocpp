@@ -86,13 +86,13 @@ If a virtual function is defined in the class, the compiler generates a unique *
 
 Now in class *Base*, 4 extra bytes should be used to store the **virtual function pointer** (vfptr), which points to the start location of the virtual function addresses in vftable. For different objects in the same class, their vfptrs point to the same vftable. Therefore, the number of virtual functions in a class does not affect the memory size of the objects, they only affect the size of the virtual function table.
 
-![virtual function 1](C:/Users/super/Documents/NAVI/repositories/navining.github.io/assets/virtual-function-1.png)
+![virtual function 1](../assets/virtual-function-1.png)
 
 ### Function Overriding
 
 If a method in the derived class is exactly the same as a method inherited from the base class (function name, return value and parameter list), and this base method is marked `virtual`, then the method in the derived class automatically  becomes a virtual function, and override its base function. This feature is known as **function overriding**. Notice that overriding refers to the overriding of virtual function addresses in the derived virtual function table, as shown below. In the example at the beginning, *Derived::show()* overrides *Base::show()*, so it replace its corresponding place in the vftable.
 
-![virtual function 1](C:/Users/super/Documents/NAVI/repositories/navining.github.io/assets/virtual-function-2.png)
+![virtual function 1](../assets/virtual-function-2.png)
 
 ### Dynamic Binding
 
