@@ -50,6 +50,7 @@ C++ basics improvement, object-oriented paradigm and advanced programming techni
    - [More about Virtual Functions](https://github.com/navining/gocpp/blob/master/Chapter%206/More-about-Virtual-Functions.md)
    - [Understanding Polymorphism](https://github.com/navining/gocpp/blob/master/Chapter%206/Understanding-Polymorphism.md)
    - [Abstract Classes](https://github.com/navining/gocpp/blob/master/Chapter%206/Abstract-Classes.md)
+   - [Frequently Asked Interview Questions: Polymorphism](https://github.com/navining/gocpp/blob/master/Chapter%206/Frequently-Asked-Interview-Questions-Polymorphism.md)
 7. **Multiple Inheritance**
    - Abstract Class and Virtual Base Class
    - Type Conversion
