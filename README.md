@@ -49,6 +49,7 @@ C++ basics improvement, object-oriented paradigm and advanced programming techni
    - [Virtual Functions, Static Binding and Dynamic Binding](https://github.com/navining/gocpp/blob/master/Chapter%206/Virtual-Functions-Static-Binding-and-Dynamic-Binding.md)
    - [More about Virtual Functions](https://github.com/navining/gocpp/blob/master/Chapter%206/More-about-Virtual-Functions.md)
    - [Understanding Polymorphism](https://github.com/navining/gocpp/blob/master/Chapter%206/Understanding-Polymorphism.md)
+   - [Abstract Classes](https://github.com/navining/gocpp/blob/master/Chapter%206/Abstract-Classes.md)
 7. **Multiple Inheritance**
    - Abstract Class and Virtual Base Class
    - Type Conversion
