@@ -52,7 +52,7 @@ C++ basics improvement, object-oriented paradigm and advanced programming techni
    - [Abstract Classes](https://github.com/navining/gocpp/blob/master/Chapter%206/Abstract-Classes.md)
    - [Frequently Asked Interview Questions: Polymorphism](https://github.com/navining/gocpp/blob/master/Chapter%206/Frequently-Asked-Interview-Questions-Polymorphism.md)
 7. **Multiple Inheritance**
-   - Abstract Class and Virtual Base Class
+   - [Virtual Inheritance and Virtual Base Classes](https://github.com/navining/gocpp/blob/master/Chapter%207/Virtual-Inheritance-and-Virtual-Base-Classes.md)
    - Type Conversion
 8. **STL Components**
    - Sequential Container
