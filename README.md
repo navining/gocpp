@@ -53,7 +53,7 @@ C++ basics improvement, object-oriented paradigm and advanced programming techni
    - [Frequently Asked Interview Questions: Polymorphism](https://github.com/navining/gocpp/blob/master/Chapter%206/Frequently-Asked-Interview-Questions-Polymorphism.md)
 7. **Multiple Inheritance**
    - [Virtual Inheritance and Virtual Base Classes](https://github.com/navining/gocpp/blob/master/Chapter%207/Virtual-Inheritance-and-Virtual-Base-Classes.md)
-   - Type Conversion
+   - [Diamond Problem](https://github.com/navining/gocpp/blob/master/Chapter%207/Diamond-Problem.md)
 8. **STL Components**
    - Sequential Container
    - Adapter
