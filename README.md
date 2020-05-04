@@ -54,6 +54,7 @@ C++ basics improvement, object-oriented paradigm and advanced programming techni
 7. **Multiple Inheritance**
    - [Virtual Inheritance and Virtual Base Classes](https://github.com/navining/gocpp/blob/master/Chapter%207/Virtual-Inheritance-and-Virtual-Base-Classes.md)
    - [Diamond Problem](https://github.com/navining/gocpp/blob/master/Chapter%207/Diamond-Problem.md)
+   - [Four Kinds of Type Conversions](https://github.com/navining/gocpp/blob/master/Chapter%207/Four-Kinds-of-Type-Conversions.md)
 8. **STL Components**
    - Sequential Container
    - Adapter
