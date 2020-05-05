@@ -56,7 +56,7 @@ C++ basics improvement, object-oriented paradigm and advanced programming techni
    - [Diamond Problem](https://github.com/navining/gocpp/blob/master/Chapter%207/Diamond-Problem.md)
    - [Four Kinds of Type Conversions](https://github.com/navining/gocpp/blob/master/Chapter%207/Four-Kinds-of-Type-Conversions.md)
 8. **STL Components**
-   - Sequential Container
+   - [Sequence Containers](https://github.com/navining/gocpp/blob/master/Chapter%208/Sequence-Containers.md)
    - Adapter
    - Ordered Associative Container
    - Unordered Associative Container
