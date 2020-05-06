@@ -57,7 +57,7 @@ C++ basics improvement, object-oriented paradigm and advanced programming techni
    - [Four Kinds of Type Conversions](https://github.com/navining/gocpp/blob/master/Chapter%207/Four-Kinds-of-Type-Conversions.md)
 8. **STL Components**
    - [Sequence Containers](https://github.com/navining/gocpp/blob/master/Chapter%208/Sequence-Containers.md)
-   - Adapter
+   - [Container Adapters](https://github.com/navining/gocpp/blob/master/Chapter%208/Container-Adapters.md)
    - Ordered Associative Container
    - Unordered Associative Container
    - Bloom Filter
