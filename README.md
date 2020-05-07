@@ -58,8 +58,8 @@ C++ basics improvement, object-oriented paradigm and advanced programming techni
 8. **STL Components**
    - [Sequence Containers](https://github.com/navining/gocpp/blob/master/Chapter%208/Sequence-Containers.md)
    - [Container Adapters](https://github.com/navining/gocpp/blob/master/Chapter%208/Container-Adapters.md)
-   - Ordered Associative Container
-   - Unordered Associative Container
+   - [Unordered Associative Containers](https://github.com/navining/gocpp/blob/master/Chapter%208/Unordered-Associative-Containers.md)
+   - [Ordered Associative Containers](https://github.com/navining/gocpp/blob/master/Chapter%208/Ordered-Associative-Containers.md)
    - Bloom Filter
    - Function Object and Lambda Expression
    - Iterators
