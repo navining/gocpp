@@ -1,6 +1,8 @@
 # Go C++
 C++ basics improvement, object-oriented paradigm and advanced programming techniques, along with classic interview questions and practical problem-solving examples.
 
+Relevant code is on [Github](https://github.com/navining/gocpp). Please give me a star if you benifit from it!
+
 :grinning: These notes are for：
 1. People who have already learned C and want to learn C++
 2. People who already know C++ and want to learn in depth
@@ -36,7 +38,7 @@ C++ basics improvement, object-oriented paradigm and advanced programming techni
 4. **Template Programming**
    - [Function Templates](https://github.com/navining/gocpp/blob/master/Chapter%204/Function-Templates.md)
    - [Class Templates](https://github.com/navining/gocpp/blob/master/Chapter%204/Class-Templates.md)
-   - [Memory-Allocators](https://github.com/navining/gocpp/blob/master/Chapter%204/Memory-Allocators.md)
+   - [Memory Allocators](https://github.com/navining/gocpp/blob/master/Chapter%204/Memory-Allocators.md)
 5. **Operator Overloading**
    - [Operator Overloading](https://github.com/navining/gocpp/blob/master/Chapter%205/Operator-Overloading.md)
    - [Introduction to Iterators](https://github.com/navining/gocpp/blob/master/Chapter%205/Introduction-to-Iterators.md)
@@ -55,7 +57,7 @@ C++ basics improvement, object-oriented paradigm and advanced programming techni
    - [Virtual Inheritance and Virtual Base Classes](https://github.com/navining/gocpp/blob/master/Chapter%207/Virtual-Inheritance-and-Virtual-Base-Classes.md)
    - [Diamond Problem](https://github.com/navining/gocpp/blob/master/Chapter%207/Diamond-Problem.md)
    - [Four Kinds of Type Conversions](https://github.com/navining/gocpp/blob/master/Chapter%207/Four-Kinds-of-Type-Conversions.md)
-8. **STL Components**
+8. **Standard Template Library**
    - [Sequence Containers](https://github.com/navining/gocpp/blob/master/Chapter%208/Sequence-Containers.md)
    - [Container Adapters](https://github.com/navining/gocpp/blob/master/Chapter%208/Container-Adapters.md)
    - [Associative Containers](https://github.com/navining/gocpp/blob/master/Chapter%208/Associative-Containers.md)
