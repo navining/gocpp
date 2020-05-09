@@ -26,7 +26,7 @@ Goods::Goods(const char *name, double price, int amount, int y, int m, int d)
 
 A static member variable is declared inside the class with keyword `static`, and has to be defined outside the scope of the class, which is similar to a static variable. A static member variable doesn't belong to any objects. Instead, it belongs to the class. Since the variable is private, we need another public method to access it. Also, we want this function to be managed by the class itself instead of any instances. This kind of function is a **static member function**.
 
-### Static Member Function
+## Static Member Function
 
 We can define our static member function *showCounts()* like this.
 
@@ -48,7 +48,7 @@ int main() {
 
 The main difference between a normal member function and a static one is that the normal method has a pointer **this* as the parameter (which is added by the compiler), and a static method doesn't. Therefore, we can not access any normal member variables because there's no actual object. We can only access static variables.
 
-### Constant Member Function
+## Constant Member Function
 
 Now look at this case. We create a constant object of class *Goods*, and call its *show()* method. But this raises an error.
 
@@ -82,7 +82,7 @@ void show() const {
 
 Generally speaking, as long as the member function is read-only, we need to add the `const` qualifier, so that it can be called by both normal objects and constant objects.
 
-### At Last
+## At Last
 
 Now we understand three types of member functions.
 

@@ -15,7 +15,7 @@ However, this compulsory type conversion might be dangerous, and the compiler wo
 cast_type<target type>(converted object);
 ```
 
-### `const_cast`	
+## `const_cast`	
 
 `const_cast` is used to remove the constant attribute of a pointer of a reference:
 
@@ -49,7 +49,7 @@ int main() {
 }
 ```
 
-### `static_cast`
+## `static_cast`
 
 `static_cast` provides type conversions that are considered safe by the compiler. It is the most commonly used type conversion and can replace the traditional conversion in C in most instances.
 
@@ -81,7 +81,7 @@ int main() {
 }
 ```
 
-### `reinterpret_cast`
+## `reinterpret_cast`
 
 `reinterpret_cast` is similar to the C-style type conversion, without safety check by the complier:
 
@@ -95,7 +95,7 @@ int main() {
 
 The code above is able to compile, but error occurred when *b* is dereferenced, for **b* should be 8 bytes but what it points to is only 4 bytes.
 
-### `dynamic_cast`	
+## `dynamic_cast`	
 
 `dynamic_cast` is widely used in an inheritance structure. Unlike `static_cast` which is done at compilation, `dynamic_cast` is a runtime type conversion, which means it supports recognition of the RTTI type. Let's look at an example. Here we have a base class *Base* and two derived classes *Derived1* and *Derived2* which inherit from *Base*. There is a pure virtual function *func()* inside *Base*, and *Derived1* and *Derived2* override it respectively.
 

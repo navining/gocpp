@@ -30,17 +30,17 @@ int main() {
 }
 ```
 
-### Compiling
+## Compiling
 
-#### Preprocessing
+### Preprocessing
 
 The first step is to handle the preprocessor directives that begin with #, for example #include and #define. This includes comments removing, macros expanding and included files expanding. Notice that directive #pragma is not processed here, for it includes the linking of libraries.
 
-#### Compiling
+### Compiling
 
 The compiling step is performed on the output of the preprocessor. The compiler parse the C++ source code into assembly file. Various optimization techniques are performed as well, which is an important criterion for the performance of the compiler.
 
-#### Assembly
+### Assembly
 
 In this step, the compiler translate the assembly code into machine code, which is represented as an Relocatable Object File. This object file contains an ELF (Executable Locatable File) header and several sections, including *.text*, *.rodata*, *.data*, *.bss* and *.symtab*, a symbol table. 
 
@@ -135,7 +135,7 @@ Now we may understand why *.o* file can not be executed directly, because some p
 
 Notice that in line 8 and line 11, the destination address of *mov* command is 0x0! It shows that in compiling process, the symbols are not assigned with virtual memory address, this process is done in the following step.
 
-### Linking
+## Linking
 
 The linker takes the object files, relates them together and produces the final executable file (or a shared library). First, it combines sections of all ELF files. For *.text*, *.data* or *.bss*, the mergence is straightforward. And for symbol tables, the linker needs to find where a symbol is defined when its location is marked *UND*, and replace it with *.text*, *.data*, etc.
 
@@ -169,7 +169,7 @@ Besides, the executable file has one more section: the program header. The progr
 
 ![Linking](../assets/linking.png)
 
-### At Last
+## At Last
 
 Now we understand the process of compiling and linking, but why we need to separate them? It is mainly because we would like to compile each source code file separately. We do not need to recompile everything if we only change a single file, which may be very time-consuming in large-scale projects. Also, the object files can be buddle together as static libraries for reusing. Therefore we can simply base on others' efforts instead of written everything by our own.
 

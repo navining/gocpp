@@ -1,6 +1,6 @@
 # References in Detail
 
-### References and Pointers
+## References and Pointers
 
 A variable can be declared as reference with an *&* in the declaration. When a variable is declared as reference, it is an alias of an existing variable. Alias means that a variable and its reference can be regarded as the same thing.
 
@@ -65,7 +65,7 @@ int main() {
 
 In the above case, the pointer has a size of 4 bytes, and reference has a size of 20 bytes, which is the same as the original array.
 
-### Rvalue References
+## Rvalue References
 
 All the cases we've seen now is references of Lvalues. A Lvalue is a type of value that can appears at the left of operator `=`. It has a variable name and a memory address that can be modified. On the contrary, a Rvalue doesn't have a variable name nor a memory address. It can only appears at the right of operator `=`. We cannot declare a normal reference of a Rvalue.
 
@@ -105,7 +105,7 @@ int &d = c;
 int &&e = c;	// ERROR
 ```
 
-### `const`, Pointers and References
+## `const`, Pointers and References
 
 Now let's take a look at the following code. Is this code able to be complied or not?
 

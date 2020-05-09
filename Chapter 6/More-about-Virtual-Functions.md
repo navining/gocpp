@@ -1,6 +1,6 @@
 # More about Virtual Functions
 
-### More about `virtual`
+## More about `virtual`
 
 Now we already learn the ability of `virtual`. But is there any function that cannot be implemented as virtual function? Notice that a virtual function must meet two conditions:
 
@@ -57,7 +57,7 @@ Derive()
 
 In the example above, the destructor of the base class is not marked as `virtual`, so there is a static binding. Good programming practice is to always marked the destructor of a base class as `virtual`, in which case the destructor of the derived class becomes virtual automatically.
 
-### More about Dynamic Binding
+## More about Dynamic Binding
 
 There is another question: is the call of a virtual function is always a dynamic binding? We already know that any function call in a constructor is static binding, even if the constructor is marked as `virtual`. Let's look at more examples.
 

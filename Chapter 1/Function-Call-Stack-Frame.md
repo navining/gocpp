@@ -26,7 +26,7 @@ It is a simple program, but what exactly happened when the program is running? Y
 
 Now let's  start from assembly language to see what happens in the black box.
 
-### Stack Frame
+## Stack Frame
 
 Every time a function is called, an independent stack frame is created on the stack. We use two registers, ***ebp*** and ***esp*** to determine the scope. ebp points to the bottom of the stack, while esp always points to the top of the stack.
 
@@ -41,7 +41,7 @@ Then we meet the next commands. We assign the return value of sum() to variable 
 
 ![function-call-1](../assets/function-call-1.png)
 
-### Function Call
+## Function Call
 
 After a function is called, we first push all the arguments into the stack. In C and C++, the push order is from right to left, so we push *b* and *a* in order.
 
@@ -84,7 +84,7 @@ mov dword ptr[ebp-4], eax
 
 ![function-call-5](../assets/function-call-5.png)
 
-### Function Return
+## Function Return
 
 When we return from a function, we also need to return its stack frame back to the system. If a function has a return value, it first store the value inside register *eax*. Then it recycle the local variable space by move *esp* to the bottom. By popping the old address out, we restore *ebp* to the bottom of the caller function.
 
@@ -115,7 +115,7 @@ Now the stack frame remains the same as initially. All memories related to the c
 
 ![function-call-6](../assets/function-call-6.png)
 
-### At Last 
+## At Last 
 
 This is all about the underlying principle of function call and return. Now we are able to answer these two questions at the beginning. You may also figure out what's the problem in the following code, and how to avoid this in your own codes.
 

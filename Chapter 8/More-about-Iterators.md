@@ -2,7 +2,7 @@
 
 As we have already known, iterators are useful to traverse elements in a STL container. However, there are also other types of iterators that are commonly used.
 
-### *iterator*
+## *iterator*
 
 *iterator* is the normal type of iterators we have learned before. It supports forward traversal of containers. We can use the deference to access the element it points to, and modify it as well.
 
@@ -21,7 +21,7 @@ int main() {
 }
 ```
 
-### *const_iterator*
+## *const_iterator*
 
 *const_iterator* supports forward traversal of containers. We can use the deference to access the element it points to, but cannot modify it, since the deference returns a `const` reference to the element.
 
@@ -40,7 +40,7 @@ int main() {
 }
 ```
 
-### *reverse_iterator* 
+## *reverse_iterator* 
 
 *reverse_iterator* supports backward traversal of containers. We can use the deference to access the element it points to, and modify it as well.
 
@@ -61,7 +61,7 @@ int main() {
 }
 ```
 
-### *const_reverse_iterator* 
+## *const_reverse_iterator* 
 
 *reverse_iterator* supports backward traversal of containers. We can use the deference to access the element it points to, but cannot modify it, since the deference returns a `const` reference to the element.
 

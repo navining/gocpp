@@ -1,6 +1,6 @@
 # Pointer to Class Members
 
-### Pointer to Member Variables
+## Pointer to Member Variables
 
 We all know that a pointer can used to represent the memory address of a variable. But what if the variable is inside a class? Let' look at this case.
 
@@ -58,7 +58,7 @@ int main() {
 }
 ```
 
-### Pointer to Member Functions
+## Pointer to Member Functions
 
 In C and C++, we can have pointers to functions. This feature enables programmers to avoid code redundancy. Similarly, we can use pointers to access public member functions.
 
@@ -96,7 +96,7 @@ int main() {
 }
 ```
 
-### More About Function Pointers
+## More About Function Pointers
 
 There may be ambiguity in using function pointers. In the following case all three statements can be compiled.
 

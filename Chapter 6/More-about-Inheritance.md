@@ -1,6 +1,6 @@
-# More-about-Inheritance
+# More about Inheritance
 
-### Function Hiding
+## Function Hiding
 
 In the following example, class *Base* has two overloaded member functions *show()* and *show(int)*. Class *Derived* inherit from *Base*, and has a member function *show()*.
 
@@ -44,7 +44,7 @@ Notice that when a member function is called, the compiler first search for it i
 
 Notice that function hiding refers to the hiding of functions with the same name defined **in different scopes**, which is very different from function overloading. Recall that the definition of **function overloading** is that, there are functions **in the same scope** whose names are the same, but their parameter lists are different. In the example above, *Base::show()* and *Base::show(int)* are a couple of overloaded functions.
 
-### Conversions of Base and Derived
+## Conversions of Base and Derived
 
 Can a base class and a derived class be converted into each other? Let's see the following example:
 

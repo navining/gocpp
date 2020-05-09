@@ -57,7 +57,7 @@ int main() {
 
 Notice that if we use a base pointer to point to a derived object, the pointer will always point at the start point of the base members. In this case, *\*p* points at the vfptr of *A*. But since it is a virtual inheritance here, all members of *A* is moved to the end, and its original location is replaced with a vbptr. Now what happens when are deleting through *\*p*?
 
-![virtual base class](../assets/virtual-base-class-2.png)
+![virtual base class 2](../assets/virtual-base-class-2.png)
 
 It is kinda problematic and hard to figure out if you are using Visual Studio. But fortunately, g++ or clang++ have optimized accordingly and have no problem freeing the memory.
 

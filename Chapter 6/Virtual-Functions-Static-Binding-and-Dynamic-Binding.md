@@ -1,6 +1,6 @@
 # Virtual Functions, Static Binding and Dynamic Binding
 
-### Static Binding
+## Static Binding
 
 Now suppose we have these two classes. Class *Base* has two methods *show()* and *show(int)*, and class *Derived* has one method *show()*.
 
@@ -63,7 +63,7 @@ call Base::show (01612DAh)
 call Base::show (01612B2h)
 ```
 
-### Virtual Functions
+## Virtual Functions
 
 In Object-Oriented Programming, **polymorphism** means that a call to a member  function will cause a different function to be executed depending on the type of object that invokes the function. In C++, we can achieve this by marking a function as `virtual`:
 
@@ -88,13 +88,13 @@ Now in class *Base*, 4 extra bytes should be used to store the **virtual functio
 
 ![virtual function 1](../assets/virtual-function-1.png)
 
-### Function Overriding
+## Function Overriding
 
 If a method in the derived class is exactly the same as a method inherited from the base class (function name, return value and parameter list), and this base method is marked `virtual`, then the method in the derived class automatically  becomes a virtual function, and override its base function. This feature is known as **function overriding**. Notice that overriding refers to the overriding of virtual function addresses in the derived virtual function table, as shown below. In the example at the beginning, *Derived::show()* overrides *Base::show()*, so it replace its corresponding place in the vftable.
 
-![virtual function 1](../assets/virtual-function-2.png)
+![virtual function 2](../assets/virtual-function-2.png)
 
-### Dynamic Binding
+## Dynamic Binding
 
 During compiling, if the compiler finds the base method to be a normal function, it binds its function address statically. However, if the base method is a virtual function, a **dynamic binding** will be done.
 
@@ -119,7 +119,7 @@ class Derive
 
 Moreover, if a class has a vftable, then the type of what its pointer pointing to is also a runtime type, which is stored in RTTI. In this case, **pb* refers to class *Derived*.
 
-### Function Overriding and Function Hiding
+## Function Overriding and Function Hiding
 
 Function overriding and function hiding is sometimes easy to be confused, so their differences is summarized as follow:
 

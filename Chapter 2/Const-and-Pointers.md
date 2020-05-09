@@ -12,7 +12,7 @@ int main() {
 }
 ```
 
-### `const` in C and C++
+## `const` in C and C++
 
 In C, the variable modified by `const` is called a constant variable, which means it is still a variable, not a constant. For example, it is invalid to declared array size with a `const int` variable.
 
@@ -55,7 +55,7 @@ const int a = b;
 int array[a] = {};	// ERROR
 ```
 
-### `const` and Pointers
+## `const` and Pointers
 
 `const` keyword ensures two things. The first one, which we have already known, is that a `const` variable cannot be a Lvalue, which means it cannot be modified directly. Besides, `const` also makes sure that the constant can not be modified indirectly, which means the memory address of a constant can not be exposed to a normal pointer nor reference.
 
@@ -121,7 +121,7 @@ In all, we have the following formula in type conversion of pointer:
 (const int*) a = (int*) b	// Correct
 ```
 
-### `const` and Double Pointers
+## `const` and Double Pointers
 
 Double pointer with `const` works in a similar way. Remember that `const` always works on the nearest type.
 

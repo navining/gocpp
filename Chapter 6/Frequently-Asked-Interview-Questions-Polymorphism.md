@@ -1,6 +1,6 @@
 # Frequently Asked Interview Questions: Polymorphism
 
-### Question 1
+## Question 1
 
 Here we defined a base class *Animal*, which has a member variable *_name* and a virtual function *bark()*. Then we defined three derived classes *Cat*, *Dog* and *Bear* which inherit from *Animal*.
 
@@ -58,7 +58,7 @@ Woof!
 Meow!
 ```
 
-### Question 2
+## Question 2
 
 Now we have a *Base* class and a *Derived* class which inherits *Base*. *Base* has a virtual function *Base::show()* which has a default parameter *i = 0*. *Derived* has an overridden method *Derived::show()* which has a default parameter *i = 20*.
 
@@ -97,7 +97,7 @@ Derived::show() i = 10
 
 Moreover, if *Derived::show()* is modified with `private`, can it be compiled? The answer is yes, because the access limitation is also determined under compilation, and the compiler only checks the permission of *Base*'s methods. Instead, if *Base::show()* is modified with `private`, it cannot be compiled.
 
-### Question 3
+## Question 3
 
 Here we also have a *Base* class and a *Derived* class. But inside the constructor of *Base*, we call a function *clear()* which set all the memory of *Base* as 0.
 
