@@ -63,8 +63,7 @@ Relevant code is on [Github](https://github.com/navining/gocpp). Please give me 
    - [Associative Containers](https://github.com/navining/gocpp/blob/master/Chapter%208/Associative-Containers.md)
    - [More about Iterators](https://github.com/navining/gocpp/blob/master/Chapter%208/More-about-Iterators.md)
    - [Function Objects](https://github.com/navining/gocpp/blob/master/Chapter%208/Function-Objects.md)
-   - Iterators
-   - Generic Algorithms
+   - [Generic Algorithms, Binders and Lambda Expressions](https://github.com/navining/gocpp/blob/master/Chapter%208/Generic-Algorithms-Binders-and-Lambda-Expressions.md)
 9. **Object Optimization**
 10. **Smart Pointer**
 11. **Function Object and Binder**
