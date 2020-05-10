@@ -62,7 +62,7 @@ Relevant code is on [Github](https://github.com/navining/gocpp). Please give me 
    - [Container Adapters](https://github.com/navining/gocpp/blob/master/Chapter%208/Container-Adapters.md)
    - [Associative Containers](https://github.com/navining/gocpp/blob/master/Chapter%208/Associative-Containers.md)
    - [More about Iterators](https://github.com/navining/gocpp/blob/master/Chapter%208/More-about-Iterators.md)
-   - Function Object and Lambda Expression
+   - [Function Objects](https://github.com/navining/gocpp/blob/master/Chapter%208/Function-Objects.md)
    - Iterators
    - Generic Algorithms
 9. **Object Optimization**
