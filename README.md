@@ -65,9 +65,13 @@ Relevant code is on [Github](https://github.com/navining/gocpp). Please give me 
    - [Function Objects](https://github.com/navining/gocpp/blob/master/Chapter%208/Function-Objects.md)
    - [Generic Algorithms, Binders and Lambda Expressions](https://github.com/navining/gocpp/blob/master/Chapter%208/Generic-Algorithms-Binders-and-Lambda-Expressions.md)
 9. **Object Optimization**
+   - [Behind the Object](https://github.com/navining/gocpp/blob/master/Chapter%209/Behind-the-Object.md)
 10. **Smart Pointer**
+    - Smart Pointer
 11. **Function Object and Binder**
+    - Function Object and Binder
 12. **Multithreading**
+    - Multithreading
 13. **Design Patterns**
     - Singleton Pattern
     - Simple Factory, Factory Method and Abstract Factory
@@ -75,4 +79,7 @@ Relevant code is on [Github](https://github.com/navining/gocpp). Please give me 
     - Observer Pattern
     - Proxy Pattern
 14. **Application and Practice**
+    - Application and Practice
 15. **Popular Interview Questions**
+    - Popular Interview Questions
+
