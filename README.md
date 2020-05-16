@@ -67,6 +67,7 @@ Relevant code is on [Github](https://github.com/navining/gocpp). Please give me 
 9. **Object Optimization**
    - [Behind the Object](https://github.com/navining/gocpp/blob/master/Chapter%209/Behind-the-Object.md)
    - [Optimizing Objects in Functions](https://github.com/navining/gocpp/blob/master/Chapter%209/Optimizing-Objects-in-Functions.md)
+   - [Member Functions with Rvalue References](https://github.com/navining/gocpp/blob/master/Chapter%209/Member-Functions-with-Rvalue-References.md)
 10. **Smart Pointer**
     - Smart Pointer
 11. **Function Object and Binder**
