@@ -12,7 +12,7 @@ public:
     ~SmartPtr() {delete _ptr;}
 private:
     T *_ptr;
-}
+};
 ```
 
 Now our smart pointer can be automatically deleted, taking use of the feature that objects on the function stack are automatically destroyed when they get out of the scope.
@@ -32,7 +32,7 @@ class SmartPtr {
     ...
 	T& operator*() {return *_ptr;}
     T* operator->() {return _ptr;}
-}
+};
 ```
 
 So far, out smart pointer works perfectly, but a problem occurs with the copy constructor:
