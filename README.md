@@ -91,6 +91,7 @@ Relevant code is on [Github](https://github.com/navining/gocpp). Please give me 
 
 - [Smart Pointers](https://github.com/navining/gocpp/blob/master/Chapter%2010/Smart-Pointers.md)
 - [Smart Pointers without Reference Counting](https://github.com/navining/gocpp/blob/master/Chapter%2010/Smart-Pointers-without-Reference-Counting.md)
+- [Smart Pointers with Reference Counting](https://github.com/navining/gocpp/blob/master/Chapter%2010/Smart-Pointers-with-Reference-Counting.md)
 
 ### **Function Object and Binder**
 
