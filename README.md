@@ -96,7 +96,7 @@ Relevant code is on [Github](https://github.com/navining/gocpp). Please give me 
 
 ### **Function Objects and Binders**
 
-- Function Object and Binder
+- [More about Binders](https://github.com/navining/gocpp/blob/master/Chapter%2011/More-about-Binders.md)
 
 ### **Multithreading**
 
