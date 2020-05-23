@@ -98,6 +98,7 @@ Relevant code is on [Github](https://github.com/navining/gocpp). Please give me 
 
 - [More about Binders](https://github.com/navining/gocpp/blob/master/Chapter%2011/More-about-Binders.md)
 - [Introduction to *std::function*](https://github.com/navining/gocpp/blob/master/Chapter%2011/Introduction-to-std-function.md)
+- [Template Specialization and Argument Deduction](https://github.com/navining/gocpp/blob/master/Chapter%2011/Template-Specialization-and-Argument-Deduction.md)
 
 ### **Multithreading**
 
