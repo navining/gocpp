@@ -105,7 +105,7 @@ Relevant code is on [Github](https://github.com/navining/gocpp). Please give me 
 
 ### **Multithreading**
 
-- Multithreading
+- [Important Features in C++ 11](https://github.com/navining/gocpp/blob/master/Chapter%2012/Important-Features-in-C++11.md)
 
 ### **Design Patterns**
 
