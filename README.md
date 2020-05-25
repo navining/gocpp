@@ -101,6 +101,7 @@ Relevant code is on [Github](https://github.com/navining/gocpp). Please give me 
 - [Template Specialization and Argument Deduction](https://github.com/navining/gocpp/blob/master/Chapter%2011/Template-Specialization-and-Argument-Deduction.md)
 - [More about *std::function*](https://github.com/navining/gocpp/blob/master/Chapter%2011/More-about-std-function.md)
 - [*std::bind()*: A Simple Thread Pool](https://github.com/navining/gocpp/blob/master/Chapter%2011/std-bind()-A-Simple-Thread-Pool.md)
+- [More about Lambda Expressions](https://github.com/navining/gocpp/blob/master/Chapter%2011/More-about-Lambda-Expressions.md)
 
 ### **Multithreading**
 
