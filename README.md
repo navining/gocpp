@@ -108,6 +108,7 @@ Relevant code is on [Github](https://github.com/navining/gocpp). Please give me 
 - [Important Features in C++ 11](https://github.com/navining/gocpp/blob/master/Chapter%2012/Important-Features-in-C++11.md)
 - [Multithreaded Programming with *std::thread*](https://github.com/navining/gocpp/blob/master/Chapter%2012/Multithreaded-Programming-with-std-thread.md)
 - [Mutual Exclusion](https://github.com/navining/gocpp/blob/master/Chapter%2012/Mutual-Exclusion.md)
+- [Producer-Consumer Problem](https://github.com/navining/gocpp/blob/master/Chapter%2012/Producer-Consumer-Problem.md)
 
 ### **Design Patterns**
 
