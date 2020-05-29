@@ -114,7 +114,7 @@ Relevant code is on [Github](https://github.com/navining/gocpp). Please give me 
 
 ### **Chapter 13: Design Patterns**
 
-- Singleton Pattern
+- [Singleton Pattern](https://github.com/navining/gocpp/blob/master/Chapter%2013/Singleton-Pattern.md)
 - Simple Factory, Factory Method and Abstract Factory
 - Iterator Pattern
 - Observer Pattern
