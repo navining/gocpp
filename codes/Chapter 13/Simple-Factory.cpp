@@ -37,18 +37,3 @@ class SimpleFactory {
     return nullptr;
   }
 };
-
-class Factory {
- public:
-  virtual Car* createCar(string name) = 0;
-};
-
-class BMWFactory : public Factory {
- public:
-  Car* createCar(string name) { return new Bmw(name); }
-};
-
-class AudiFactory : public Factory {
- public:
-  Car* createCar(string name) { return new Audi(name); }
-};
