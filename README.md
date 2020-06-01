@@ -117,6 +117,7 @@ Relevant code is on [Github](https://github.com/navining/gocpp). Please give me 
 - [Singleton Pattern](https://github.com/navining/gocpp/blob/master/Chapter%2013/Singleton-Pattern.md)
 - [Factory Pattern](https://github.com/navining/gocpp/blob/master/Chapter%2013/Factory-Pattern.md)
 - [Proxy Pattern](https://github.com/navining/gocpp/blob/master/Chapter%2013/Proxy-Pattern.md)
+- [Decorator Pattern](https://github.com/navining/gocpp/blob/master/Chapter%2013/Decorator-Pattern.md)
 - Iterator Pattern
 - Observer Pattern
 
