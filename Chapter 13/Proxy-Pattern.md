@@ -51,7 +51,7 @@ public:
     }
 private:
     MovieSite *pMovie;
-}
+};
 ```
 
 Similarly, we have a *VipMovieProxy* class which acts as a proxy of VIP movies. In this class, users have the full permissions to *freeMovie()* and *vipMovie()* of *MovieSite*.
@@ -73,7 +73,7 @@ public:
     }
 private:
     MovieSite *pMovie;
-}
+};
 ```
 
 Then in the service module, the client accesses the proxy object instead of the original object, where the permissions of users can be managed.
