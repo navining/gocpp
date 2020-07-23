@@ -79,7 +79,7 @@ Before in function *getObject()*, we first construct an object *tmp*, and then r
 ```cpp
 Test getObject(Test &t) {
     int val = t.getData();
-    return tmp(val);	// 3. Test(int)
+    return Test(val);	// 3. Test(int)
 }
 
 int main() {
@@ -100,8 +100,7 @@ Since the function returns a temporary object, we can directly use the object to
 ```cpp
 Test getObject(Test &t) {
     int val = t.getData();
-    Test tmp(val);
-    return tmp;	// 2. Test(int)
+    return Test(tmp);	// 2. Test(int)
 }
 
 int main() {
