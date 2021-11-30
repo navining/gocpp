@@ -53,7 +53,7 @@ Notice that static member variables belong to the class instead of objects. So i
 int main() {
     int *p = &Test::mb;
     *p = 30;
-    cout << t->Test::mb << endl;	// 30
+    cout << Test::mb << endl;	// 30
     return 0;
 }
 ```
