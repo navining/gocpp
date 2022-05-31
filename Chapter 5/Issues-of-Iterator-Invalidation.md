@@ -27,7 +27,7 @@ The second example is to add *n - 1* before every even number n:
 int main() {
     vector<int> v;
     for (int i = 0; i < 20; ++i) {
-        vec.push_back(rand() % 100 + 1);
+        v.push_back(rand() % 100 + 1);
     }
     for (auto it = v.begin(); it != v.end(); ++it) {
         if (*it % 2 == 0) {
@@ -48,7 +48,7 @@ After an element is erased from the container, the elements after it will move f
 int main() {
     vector<int> v;
     for (int i = 0; i < 20; ++i) {
-        vec.push_back(rand() % 100 + 1);
+        v.push_back(rand() % 100 + 1);
     }
     for (auto it = v.begin(); it != v.end();) {
         if (*it % 2 == 0) {
@@ -67,7 +67,7 @@ After an element is erased from the container, the elements after it will move b
 int main() {
     vector<int> v;
     for (int i = 0; i < 20; ++i) {
-        vec.push_back(rand() % 100 + 1);
+        v.push_back(rand() % 100 + 1);
     }
     for (auto it = v.begin(); it != v.end();++it) {
         if (*it % 2 == 0) {
