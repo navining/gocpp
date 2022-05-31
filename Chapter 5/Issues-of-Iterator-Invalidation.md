@@ -8,7 +8,7 @@ For example, in the following case, we use an iterator to delete all the even nu
 int main() {
     vector<int> v;
     for (int i = 0; i < 20; ++i) {
-        vec.push_back(rand() % 100 + 1);
+        v.push_back(rand() % 100 + 1);
     }
     for (auto it = v.begin(); it != v.end(); ++it) {
         if (*it % 2 == 0) {
@@ -69,9 +69,9 @@ int main() {
     for (int i = 0; i < 20; ++i) {
         vec.push_back(rand() % 100 + 1);
     }
-    for (auto it = v.begin(); it != v.end();) {
+    for (auto it = v.begin(); it != v.end();++it) {
         if (*it % 2 == 0) {
-           v.insert(it, *it-1);
+           it = v.insert(it, *it-1);
            ++it;
         }
     }
