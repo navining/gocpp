@@ -1,5 +1,5 @@
 # Go C++
-:point_right: [**gocpp.navining.me**](https://gocpp.navining.me)
+:point_right: [**navining.gitbook.io/gocpp**](https://navining.gitbook.io/gocpp/)
 
 C++ basics improvement, object-oriented paradigm and advanced programming techniques, along with classic interview questions and practical problem-solving examples.
 
