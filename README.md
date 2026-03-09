@@ -124,3 +124,5 @@ Relevant code is on [Github](https://github.com/navining/gocpp). Please give me 
 - [Observer Pattern](https://github.com/navining/gocpp/blob/master/Chapter%2013/Observer-Pattern.md)
 12344
 
+12580
+
