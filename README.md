@@ -123,3 +123,5 @@ Relevant code is on [Github](https://github.com/navining/gocpp). Please give me 
 - [Adapter Pattern](https://github.com/navining/gocpp/blob/master/Chapter%2013/Adapter-Pattern.md)
 - [Observer Pattern](https://github.com/navining/gocpp/blob/master/Chapter%2013/Observer-Pattern.md)
 
+54321
+
